@@ -17,5 +17,8 @@ public class ThreadMain {
         //Created two thread object to call start method
         Thread t1 = new Thread(hi1);
         Thread t2 = new Thread(hello1);
+
+        t1.start();
+        t2.start();
     }
 }
