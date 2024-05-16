@@ -1,4 +1,4 @@
 package Threads;
 
-public class SayHello {
+public class SayHello extends Thread{
 }
