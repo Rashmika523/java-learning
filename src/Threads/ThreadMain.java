@@ -6,6 +6,7 @@ public class ThreadMain {
         SayHi hi = new SayHi();
         SayHello hello = new SayHello();
 
+        //Calling start method to run threads. This method came from Java Thread class
         hi.start();
         hello.start();
     }
