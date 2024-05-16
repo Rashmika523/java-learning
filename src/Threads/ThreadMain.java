@@ -5,5 +5,8 @@ public class ThreadMain {
 
         SayHi hi = new SayHi();
         SayHello hello = new SayHello();
+
+        hi.start();
+        hello.start();
     }
 }
