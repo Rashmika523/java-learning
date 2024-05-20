@@ -4,12 +4,14 @@ public class B extends A{
 
     int b;
 
-    public void printB(){
-        System.out.println("b :"+b);
+    B(){
+        System.out.println("B()");
     }
-
-    static {
-        System.out.println("Static Block B");
+    B(int i){
+        System.out.println("B(int i)");
+    }
+    B(int i,int y){
+        System.out.println("B(int i,int y");
     }
 
 }
