@@ -2,19 +2,13 @@ package Inheritance;
 
 public class B extends A{
 
-    int b;
-
-    B(){
-        super();
-        System.out.println("B()");
-    }
+    int x=100;
+    static int y=200;
     B(int i){
-        super(10);
-        System.out.println("B(int i)");
-    }
-    B(int i,int y){
-        super(10,20);
-        System.out.println("B(int i,int y");
+        //super(a) error
+        //super(b); ok
+        //super(x) error
+        super(y);
     }
 
 }
