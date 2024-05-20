@@ -2,10 +2,13 @@ package Inheritance;
 
 public class A {
     int a;
-    public void printA(){
-        System.out.println("a :"+a);
+    A(){
+        System.out.println("A()");
     }
-    static {
-        System.out.println("Static Block A");
+    A(int i){
+        System.out.println("A(int i)");
+    }
+    A(int i,int y){
+        System.out.println("A(int i,int y");
     }
 }
