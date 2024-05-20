@@ -5,4 +5,7 @@ public class A {
     public void printA(){
         System.out.println("a :"+a);
     }
+    static {
+        System.out.println("Static Block A");
+    }
 }
