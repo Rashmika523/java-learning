@@ -26,6 +26,8 @@ public class RecursionMain {
         System.out.println("Please Enter the number : ");
         int number = input.nextInt();
 
+        System.out.println("Factorial value is : "+getFactorial(number));
+
         /*int total= sum(10);
         System.out.println("Results is :"+total);*/
 
