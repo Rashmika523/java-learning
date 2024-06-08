@@ -10,6 +10,14 @@ public class RecursionMain {
         }
     }
 
+    public static long getFactorial(long number){
+        if(number<=1){
+            return 1;
+        }else {
+            return number*getFactorial(number-1);
+        }
+    }
+
     public static void main(String[] args) {
         int total= sum(10);
         System.out.println("Results is :"+total);
