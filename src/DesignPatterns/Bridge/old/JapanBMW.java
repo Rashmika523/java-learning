@@ -1,4 +1,4 @@
-package DesignPatterns.Bridge;
+package DesignPatterns.Bridge.old;
 
 public class JapanBMW extends Engine{
     @Override

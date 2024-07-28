@@ -1,4 +1,4 @@
-package DesignPatterns.Bridge;
+package DesignPatterns.Bridge.old;
 
 abstract public class Engine {
 
