@@ -1,4 +1,4 @@
-package DesignPatterns.Composite;
+package DesignPatterns.Composite.wrong;
 
 public class Product {
     private String name;
